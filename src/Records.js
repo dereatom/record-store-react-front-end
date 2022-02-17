@@ -36,6 +36,7 @@ function Records() {
             return;
         }
 
+        // eslint-disable-next-line default-case
         switch (action) {
             case "add":
                 setRecords([...records, record]);
